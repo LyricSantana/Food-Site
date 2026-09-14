@@ -1,0 +1,98 @@
+body {
+    display: grid;
+    place-items: center;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    align-items: flex-end;
+    margin-bottom: 30px
+}
+
+header nav {
+    margin: 0 25px;
+}
+
+header nav hr {
+    width: 100%;
+    margin: 7px 0 0;
+}
+
+header a {
+    margin: 40px;
+    padding: 6px 10px;
+}
+
+.onPage {
+    border-bottom: 5px solid #4f7754 ;
+}
+
+#mainSection {
+    margin-bottom: 30px;
+    display: flex;
+    width: 50%;
+    background-color: #4f7754 ;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+#mainSection img {
+    border-radius: 0 8px 8px 0;
+}
+
+#mainSectionText {
+    padding: 10px;
+}
+
+#popularDivider {
+    width: 50%;
+    margin: 0 auto 20px auto;
+}
+
+#popularRecipes {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    gap: 20px;
+    width: 50%;
+}
+
+.recipeIcon {
+    border: 4px solid black;
+    border-radius: 10px;
+    width: 300px;
+    height: 320px;
+    margin-bottom: 30px;
+}
+
+a:visited, a:link {
+    color: #170e19;
+}
+
+a:hover {
+    color: #213b25 ;
+}
+
+.recipeIcon img {
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+    height: 250px;
+    object-fit: cover;
+}
+
+.recipeIcon h3, .recipeIcon p {
+    padding: 3px 10px;
+    margin: 0;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: green;
+}
